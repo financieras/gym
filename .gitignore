@@ -1,0 +1,97 @@
+# Archivos de sistema de MacOS
+.DS_Store
+
+# Archivos de sistema de Ubuntu/Linux
+.Trashes
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs y archivos temporales
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Informes de tests y cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Traducciones
+*.mo
+*.pot
+
+# PyBuilder
+target/
+
+# Jupyter Notebook / Lab
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code
+.vscode/
+.history
+
+# Archivos de Homebrew (no suelen estar en el proyecto, pero por si acaso)
+Cellar/
+Caskroom/
+Homebrew/
+
+# Credenciales y archivos sensibles
+conectar/credentials.json
+*.json
+!package.json
+!package-lock.json
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Otros archivos sensibles
+config/credentials.json
