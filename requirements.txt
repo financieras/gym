@@ -2,3 +2,5 @@ gymnasium
 numpy
 matplotlib
 pygame
+python-dotenv
+gspread
