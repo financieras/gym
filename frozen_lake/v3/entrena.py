@@ -2,7 +2,7 @@ import gymnasium as gym
 import numpy as np
 import time
 
-def train_agent(episodes=200000, max_steps=300):
+def train_agent(episodes=500_000, max_steps=100):
     env = gym.make("FrozenLake-v1", is_slippery=True)
     q_table = np.zeros((env.observation_space.n, env.action_space.n))
 
@@ -34,7 +34,7 @@ def train_agent(episodes=200000, max_steps=300):
     env.close()
     return q_table
 
-def test_agent(q_table, episodes=5, max_steps=100):
+def test_agent(q_table, episodes=10, max_steps=100):
     env = gym.make("FrozenLake-v1", render_mode="human", is_slippery=True)
 
     for ep in range(episodes):
