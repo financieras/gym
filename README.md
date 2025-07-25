@@ -26,6 +26,7 @@ pip install --upgrade pip
 
 4. **Instalar dependencias**
 ```bash
+
 ```
 
 5. **Al finalizar: Desinstalar el entorno virtual** (Optativo)
