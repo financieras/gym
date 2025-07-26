@@ -6,3 +6,4 @@ python-dotenv
 gspread>=5.7.0
 google-auth>=2.0.0
 google-auth-oauthlib>=0.5.0
+torch
