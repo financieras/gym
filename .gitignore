@@ -96,3 +96,9 @@ conectar/credentials.json
 
 # Otros archivos sensibles
 config/credentials.json
+
+# La extensión 'npy' sirve para almacenar arrays de NumPy
+*.npy
+
+# binario usado para guardar modelos en Python
+*.pkl

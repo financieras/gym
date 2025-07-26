@@ -26,7 +26,7 @@ pip install --upgrade pip
 
 4. **Instalar dependencias**
 ```bash
-
+pip install -r requirements.txt
 ```
 
 5. **Al finalizar: Desinstalar el entorno virtual** (Optativo)
