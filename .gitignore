@@ -102,3 +102,6 @@ config/credentials.json
 
 # binario usado para guardar modelos en Python
 *.pkl
+
+# pesos de un modelo entrenado con Machine Learning con PyTorch
+*.pth
