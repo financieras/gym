@@ -231,7 +231,7 @@ class QLearningAgent:
                 self.optimal_solutions += 1
                 self.optimal_episodes.append(self.total_episodes)
                 
-                print(f"{LogConfig.EMOJIS['OPTIMAL']} ¡RUTA ÓPTIMA! {steps} pasos")
+                #print(f"{LogConfig.EMOJIS['OPTIMAL']} ¡RUTA ÓPTIMA! {steps} pasos")
                 
                 # Verificar si es ruta teórica exacta
                 if episode_path is not None:
@@ -239,7 +239,7 @@ class QLearningAgent:
                     if theoretical_index is not None:
                         reward += RewardConfig.THEORETICAL_BONUS
                         self.theoretical_paths_found[theoretical_index] += 1
-                        print(f"{LogConfig.EMOJIS['THEORETICAL']} ¡RUTA TEÓRICA {theoretical_index + 1}!")
+                        #print(f"{LogConfig.EMOJIS['THEORETICAL']} ¡RUTA TEÓRICA {theoretical_index + 1}!")
             
             # Bonificación de eficiencia graduada
             efficiency_bonus = calculate_efficiency_bonus(steps)

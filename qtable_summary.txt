@@ -1,17 +1,10 @@
 === RESUMEN DE ENTRENAMIENTO Q-LEARNING ===
 
-Episodios totales: 0
-Tasa de éxito final: 30.3%
-Rutas óptimas encontradas: 35
-Tasa de rutas óptimas: 1.4%
+Episodios totales: 200000
+Tasa de éxito final: 48.4%
+Rutas óptimas encontradas: 659
+Tasa de rutas óptimas: 0.7%
 Rutas teóricas descubiertas: 3/3
-Pasos promedio: 30.4
-Epsilon final: 0.0100
-Learning rate final: 0.0100
-
-=== RESULTADOS DE EVALUACIÓN ===
-Episodios evaluados: 1000
-Tasa de éxito: 31.1%
-Tasa de rutas óptimas: 0.4%
-Rutas óptimas únicas: 3
-Rutas teóricas encontradas: 3/3
+Pasos promedio: 32.9
+Epsilon final: 0.0500
+Learning rate final: 0.0200

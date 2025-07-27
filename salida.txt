@@ -1,0 +1,536 @@
+✅ Configuración optimizada validada correctamente
+ℹ️ Inicializando Q-Learning Frozen Lake...
+📊 Agente Q-Learning OPTIMIZADO inicializado
+Tabla Q: 16 estados × 4 acciones
+Optimizaciones: Exploración inteligente + Recompensas amplificadas
+
+🚀 === FASE DE ENTRENAMIENTO ===
+🚀 Entrenamiento Q-Learning con Tabla Q
+🎯 Objetivo: Convergencia completa a rutas óptimas
+[1m=== CONFIGURACIÓN Q-LEARNING OPTIMIZADA FROZEN LAKE ===[0m
+Algoritmo: Q-Learning con Tabla Q (OPTIMIZADO)
+Estados: 16
+Acciones: 4
+Episodios: 200000
+Learning Rate: 0.15 → 0.02
+Epsilon: 1.0 → 0.05
+Gamma: 0.95
+Recompensas optimizadas: ✅
+Exploración dirigida mejorada: ✅
+Bonificaciones de eficiencia: ✅
+------------------------------------------------------------
+
+Episodio 5000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.6%
+  Rutas óptimas: 4807 (96.5% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.1
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 6.7s
+  Encontradas: Ruta 1(4807x)
+
+Episodio 10000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 9711 (97.4% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 20.1s
+  Encontradas: Ruta 1(9711x)
+
+Episodio 15000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 14624 (97.8% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 38.9s
+  Encontradas: Ruta 1(14624x)
+
+Episodio 20000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 19522 (97.9% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 66.7s
+  Encontradas: Ruta 1(19522x)
+
+Episodio 25000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 24437 (98.0% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 101.6s
+  Encontradas: Ruta 1(24437x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_25000.npy
+
+Episodio 30000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 29346 (98.1% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 141.9s
+  Encontradas: Ruta 1(29346x)
+
+Episodio 35000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 34258 (98.1% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 190.0s
+  Encontradas: Ruta 1(34258x)
+
+Episodio 40000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 39182 (98.2% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 243.4s
+  Encontradas: Ruta 1(39182x)
+
+Episodio 45000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 44088 (98.2% de éxitos)
+  Rutas teóricas: 1/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 303.1s
+  Encontradas: Ruta 1(44088x)
+
+Episodio 50000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 48989 (98.2% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 369.3s
+  Encontradas: Ruta 1(48987x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_50000.npy
+
+Episodio 55000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 53902 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 442.1s
+  Encontradas: Ruta 1(53900x), Ruta 2(2x)
+
+Episodio 60000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 58808 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 521.3s
+  Encontradas: Ruta 1(58806x), Ruta 2(2x)
+
+Episodio 65000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.7%
+  Rutas óptimas: 63729 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 606.7s
+  Encontradas: Ruta 1(63727x), Ruta 2(2x)
+
+Episodio 70000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 68642 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 698.5s
+  Encontradas: Ruta 1(68640x), Ruta 2(2x)
+
+Episodio 75000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 73547 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 796.9s
+  Encontradas: Ruta 1(73545x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_75000.npy
+
+Episodio 80000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 78455 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 901.9s
+  Encontradas: Ruta 1(78453x), Ruta 2(2x)
+
+Episodio 85000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 83342 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1012.9s
+  Encontradas: Ruta 1(83340x), Ruta 2(2x)
+
+Episodio 90000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 88269 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1130.8s
+  Encontradas: Ruta 1(88267x), Ruta 2(2x)
+
+Episodio 95000/200000
+  Promedio últimos 200: 0.985
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 93160 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1255.1s
+  Encontradas: Ruta 1(93158x), Ruta 2(2x)
+
+Episodio 100000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 98056 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1385.8s
+  Encontradas: Ruta 1(98054x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_100000.npy
+
+Episodio 105000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 102967 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1522.9s
+  Encontradas: Ruta 1(102965x), Ruta 2(2x)
+
+Episodio 110000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 107874 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1665.5s
+  Encontradas: Ruta 1(107872x), Ruta 2(2x)
+
+Episodio 115000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 112798 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1814.4s
+  Encontradas: Ruta 1(112796x), Ruta 2(2x)
+
+Episodio 120000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 117697 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 1970.5s
+  Encontradas: Ruta 1(117695x), Ruta 2(2x)
+
+Episodio 125000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 122612 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 2132.8s
+  Encontradas: Ruta 1(122610x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_125000.npy
+
+Episodio 130000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 127532 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 2301.9s
+  Encontradas: Ruta 1(127530x), Ruta 2(2x)
+
+Episodio 135000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 132457 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 2477.5s
+  Encontradas: Ruta 1(132455x), Ruta 2(2x)
+
+Episodio 140000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 137369 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 2659.2s
+  Encontradas: Ruta 1(137367x), Ruta 2(2x)
+
+Episodio 145000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 142293 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 2847.9s
+  Encontradas: Ruta 1(142291x), Ruta 2(2x)
+
+Episodio 150000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 147199 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 3042.7s
+  Encontradas: Ruta 1(147197x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_150000.npy
+
+Episodio 155000/200000
+  Promedio últimos 200: 0.990
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 152100 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 3244.4s
+  Encontradas: Ruta 1(152098x), Ruta 2(2x)
+
+Episodio 160000/200000
+  Promedio últimos 200: 0.985
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 157010 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 3452.1s
+  Encontradas: Ruta 1(157008x), Ruta 2(2x)
+
+Episodio 165000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 161922 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 3672.4s
+  Encontradas: Ruta 1(161920x), Ruta 2(2x)
+
+Episodio 170000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 166831 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 3895.5s
+  Encontradas: Ruta 1(166829x), Ruta 2(2x)
+
+Episodio 175000/200000
+  Promedio últimos 200: 0.990
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 171728 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 4119.9s
+  Encontradas: Ruta 1(171726x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_175000.npy
+
+Episodio 180000/200000
+  Promedio últimos 200: 0.995
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 176619 (98.4% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 4350.0s
+  Encontradas: Ruta 1(176617x), Ruta 2(2x)
+
+Episodio 185000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 181509 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 4584.7s
+  Encontradas: Ruta 1(181507x), Ruta 2(2x)
+
+Episodio 190000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 186404 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 4825.5s
+  Encontradas: Ruta 1(186402x), Ruta 2(2x)
+
+Episodio 195000/200000
+  Promedio últimos 200: 1.000
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 191312 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 5072.2s
+  Encontradas: Ruta 1(191310x), Ruta 2(2x)
+
+Episodio 200000/200000
+  Promedio últimos 200: 0.990
+  Tasa de éxito: 99.8%
+  Rutas óptimas: 196210 (98.3% de éxitos)
+  Rutas teóricas: 2/3
+  Pasos promedio: 6.0
+  Epsilon: 0.050
+  Learning rate: 0.0200
+  Convergencia: No
+  Tiempo: 5325.1s
+  Encontradas: Ruta 1(196208x), Ruta 2(2x)
+💾 Agente Q-Learning optimizado guardado en qtable_checkpoint_episode_200000.npy
+💾 Agente Q-Learning optimizado guardado en frozen_lake_qtable_optimized.npy
+
+✅ ¡Entrenamiento Q-Learning completado!
+Tiempo total: 5325.3s (88.8 minutos)
+Episodios exitosos: 199511/200000 (99.8%)
+Rutas óptimas encontradas: 196210
+Tasa de rutas óptimas: 98.3% de éxitos
+Rutas teóricas encontradas: 2/3
+Pasos promedio: 6.0
+Convergencia final: No
+
+Detalle de rutas teóricas encontradas:
+  ✅ Ruta 1: 0 → 1 → 2 → 6 → 10 → 14 → 15 (196208 veces)
+  ✅ Ruta 2: 0 → 4 → 8 → 9 → 10 → 14 → 15 (2 veces)
+  ❌ Ruta 3: 0 → 4 → 8 → 9 → 13 → 14 → 15 (0 veces)
+💾 Agente Q-Learning optimizado guardado en frozen_lake_qtable_optimized.npy
+💾 Gráficas guardadas en qtable_results_optimized.png
+💾 Resultados detallados guardados en qtable_detailed_results.npy
+💾 Resumen guardado en qtable_summary.txt
+
+✅ Entrenamiento completado exitosamente!
+
+✅ ¡Ejecución completa de Q-Learning Frozen Lake!
+Archivos generados:
+  📊 Modelo: frozen_lake_qtable_optimized.npy
+  📈 Gráficas: qtable_results_optimized.png
+  📝 Resumen: qtable_summary.txt

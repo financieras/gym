@@ -31,9 +31,9 @@ class QLearningConfig:
     DISCOUNT_FACTOR = 0.95     # Gamma - reducido para valorar más recompensas inmediatas
     
     # Exploración optimizada (Epsilon-Greedy)
-    EPSILON_START = 0.9        # Menos exploración inicial
+    EPSILON_START = 1.0        # Menos exploración inicial
     EPSILON_END = 0.05         # Más exploración final para encontrar rutas óptimas
-    EPSILON_DECAY = 0.9992     # Decay más lento para mejor exploración
+    EPSILON_DECAY = 0.9995     # Decay más lento para mejor exploración
     
     # Configuración de convergencia
     MIN_LEARNING_RATE = 0.02   # Learning rate mínimo más alto
@@ -45,9 +45,9 @@ class QLearningConfig:
 class TrainingConfig:
     """Configuración optimizada del entrenamiento"""
     
-    NUM_EPISODES = 12000       # Más episodios para convergencia completa
-    PRINT_EVERY = 500          # Reportar cada 500 episodios
-    SAVE_EVERY = 2500          # Guardar cada 2500 episodios
+    NUM_EPISODES = 200_000       # Más episodios para convergencia completa
+    PRINT_EVERY = 50_00          # Reportar cada 500 episodios
+    SAVE_EVERY = 25_000          # Guardar cada 2500 episodios
     
     # Criterios de convergencia mejorados
     SOLVE_SCORE = 0.75         # Objetivo más realista para entorno stochastic
